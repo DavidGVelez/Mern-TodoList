@@ -347,6 +347,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/front/src/assets/scss/layout/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/front/src/assets/scss/layout/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/front/src/assets/scss/layout/_header.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -437,6 +450,50 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
+		},
+	"/front/src/components/atoms/footer.jsx": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/front/src/components/atoms/footer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/front/src/components/atoms/header.jsx": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/front/src/components/atoms/header-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/front/src/components/molecules/todo-item.jsx": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/front/src/components/molecules/todo-item-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/front/src/components/organisms/todo-list.jsx": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/front/src/components/organisms/todo-list-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/front/src/components/todo-item.jsx": {
 		"bF": 0,

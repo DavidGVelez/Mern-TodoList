@@ -145,6 +145,11 @@ header {
   background-color: #1976b3;
 }
 
+footer {
+  min-height: 200px;
+  background-color: #333;
+}
+
 .todo-list {
   width: 80%;
   margin: center;
