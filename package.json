@@ -1,0 +1,23 @@
+{
+  "name": "mern-todo-list",
+  "version": "1.0.0",
+  "description": "To do List using MERN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd back && nodemon server.js\" \"cd front && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidGVelez/mern-todo-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidGVelez/mern-todo-list/issues"
+  },
+  "homepage": "https://github.com/DavidGVelez/mern-todo-list#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
