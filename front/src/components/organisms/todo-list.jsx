@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import TodoItem from "../molecules/todo-item";
 
 export default function TodoList({ todolist }) {

@@ -1,0 +1,7 @@
+.todo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: map-get($theme-colors, "item");
+  padding: 1rem;
+}

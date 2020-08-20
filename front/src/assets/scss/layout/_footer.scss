@@ -1,0 +1,11 @@
+footer {
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: map-get($theme-colors, "footer");
+  & > h2 {
+    color: map-get($font-colors, "white");
+    font-size: map-get($font-size, "lg");
+  }
+}

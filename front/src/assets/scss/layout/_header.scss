@@ -1,0 +1,12 @@
+header {
+  min-height: 100px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  & > h1 {
+    text-align: center;
+    margin: auto;
+    font-size: map-get($font-size, "xl");
+  }
+  background-color: map-get($theme-colors, "header");
+}

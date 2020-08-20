@@ -1,2 +1,3 @@
 node_modules
-front/src/assets/scss
+config.codekit3
+front/src/style.css

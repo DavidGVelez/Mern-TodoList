@@ -1,5 +1,8 @@
 import React from "react";
-import TodoList from "./components/todo-list";
+import TodoList from "./components/organisms/todo-list";
+import Header from "./components/atoms/header";
+import Footer from "./components/atoms/footer";
+
 import "./style.css";
 
 const todoList = [
@@ -10,7 +13,9 @@ const todoList = [
 function App() {
   return (
     <div className="App">
+      <Header />
       <TodoList todolist={todoList} />
+      <Footer />
     </div>
   );
 }
