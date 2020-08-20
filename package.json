@@ -4,14 +4,14 @@
   "description": "To do List using MERN",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"cd back && nodemon server.js\" \"cd front && npm start\""
+    "start": "concurrently \"cd back && nodemon server.js\" \"cd front && npm start\"",
+    "create-env": "concurrently \"cd back && npm install\" \"cd front && npm install\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DavidGVelez/mern-todo-list.git"
   },
-  "author": "",
+  "author": "David Gavilanes",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DavidGVelez/mern-todo-list/issues"
