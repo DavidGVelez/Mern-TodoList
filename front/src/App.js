@@ -6,18 +6,13 @@ import Footer from "./components/atoms/footer";
 
 import "./style.css";
 
-const todoList = [
-  { description: "Prueba1", isDone: true },
-  { description: "Prueba2", isDone: false },
-];
-
 function App() {
   return (
     <div className="App">
       <Header />
       <div className="container">
         <TodoForm />
-        <TodoList todolist={todoList} />
+        <TodoList />
       </div>
       <Footer />
     </div>
