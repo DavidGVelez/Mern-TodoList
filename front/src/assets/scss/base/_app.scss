@@ -4,3 +4,8 @@
   justify-content: space-between;
   height: 100vh;
 }
+.container {
+  width: 80%;
+  flex-grow: 1;
+  @include margin-x-auto;
+}

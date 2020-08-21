@@ -1,0 +1,19 @@
+form {
+  @include margin-y-2;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #333;
+  & > label {
+    display: none;
+  }
+  & > input[type="text"] {
+    flex-grow: 1;
+    border: none;
+  }
+  & > input[type="submit"] {
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    @include padding-x-1;
+  }
+}
