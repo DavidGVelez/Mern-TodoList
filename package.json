@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "concurrently \"cd back && nodemon server.js\" \"cd front && npm start\"",
-    "create-env": "concurrently \"cd back && npm install\" \"cd front && npm install\""
+    "create-env": "concurrently \"cd back && npm install\" \"cd front && npm install\"",
+    "watch-sass": "concurrently \"cd front && npm run watch-sass\""
   },
   "repository": {
     "type": "git",
