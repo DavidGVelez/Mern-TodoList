@@ -1,5 +1,7 @@
 .todo-list {
+  @include margin-y-container;
+  @include margin-x-auto;
   width: 80%;
-  margin: auto;
+  flex-grow: 1;
   background-color: map-get($theme-colors, "white");
 }

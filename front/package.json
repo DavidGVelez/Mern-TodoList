@@ -12,6 +12,7 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
+    "start": "react-scripts start",
     "build-sass": "node-sass src/assets/scss/style.scss src/style.css",
     "watch-sass": "node-sass -w src/assets/scss/style.scss src/style.css"
   },

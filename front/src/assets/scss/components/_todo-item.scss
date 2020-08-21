@@ -1,10 +1,36 @@
 .todo-item {
   display: flex;
-  width: 50%;
+  width: 60%;
+  height: 50px;
   justify-content: space-between;
   align-items: center;
   margin: auto;
   background-color: map-get($theme-colors, "item");
   padding: 1rem;
   @include margin-y-1;
+
+  & > .description {
+    text-transform: capitalize;
+    flex-grow: 1;
+    font-size: map-get($font-size, "lg");
+    padding-left: 1rem;
+  }
+  & > button {
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    padding: 4px;
+    &:hover {
+      background-color: map-get($colors, "hover");
+    }
+    & > img {
+      height: 100%;
+    }
+  }
+}
+.done {
+  text-decoration: line-through;
+}
+.notdone {
+  text-decoration: none;
 }

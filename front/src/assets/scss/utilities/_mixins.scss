@@ -1,4 +1,14 @@
 @mixin margin-y-1 {
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+@mixin margin-y-container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+@mixin margin-x-auto {
+  margin-left: auto;
+  margin-right: auto;
 }

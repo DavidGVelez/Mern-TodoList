@@ -6,7 +6,7 @@ import Footer from "./components/atoms/footer";
 import "./style.css";
 
 const todoList = [
-  { description: "Prueba1", isDone: false },
+  { description: "Prueba1", isDone: true },
   { description: "Prueba2", isDone: false },
 ];
 

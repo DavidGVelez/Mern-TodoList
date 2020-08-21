@@ -8,9 +8,22 @@ export default function TodoItem({
 }) {
   return (
     <li className="todo-item">
-      <input type="checkbox" name="" id="" />
-      <span className="description">{description}</span>
-      <button>boton</button>
+      <input
+        checked={isDone}
+        type="checkbox"
+        name="checkbox"
+        id="checkbox"
+        onClick={handleClickDone}
+      />
+      <span
+        id="description"
+        className={` description ${isDone ? "done" : "notdone"} `}
+      >
+        {description}
+      </span>
+      <button type="button" onClick={handleClickDelete}>
+        <img src={`${process.env.PUBLIC_URL}/trash.svg`} alt="delete icon" />
+      </button>
     </li>
   );
 }
