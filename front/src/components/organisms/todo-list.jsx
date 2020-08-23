@@ -21,7 +21,6 @@ export default function TodoList() {
       })
       .catch((err) => console.log("Error: " + err));
   }, [quantity]);
-  console.log("todo", todoList);
   return (
     <ul className="todo-list">
       {todoList.map((todo, index) => (
