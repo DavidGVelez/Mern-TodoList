@@ -32,6 +32,8 @@ You can run front & back separately using `npm start` on both directories
 - [Mongoose](https://mongoosejs.com/)
 - [Nodemon](https://www.npmjs.com/package/nodemon)
 - [Dotenv](https://www.npmjs.com/package/dotenv)
+- [Mocha](https://mochajs.org/)
+- [Chai](https://www.chaijs.com/)
 
 ### General
 
