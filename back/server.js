@@ -31,3 +31,5 @@ app.use("/", todoRoutes);
 app.listen(port, () => {
   console.log(`Server Running on ${port}`);
 });
+
+module.exports = app;
