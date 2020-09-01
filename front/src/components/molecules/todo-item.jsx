@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import axios from "axios";
 
 export default function TodoItem({
@@ -7,6 +7,8 @@ export default function TodoItem({
   _id,
   handleClickDelete,
 }) {
+  const [isChecked, setIsChecked] = useState(isDone);
+
   const handleClickDone = () => {
     axios
       .post("http://localhost:5000/update/" + _id, {
@@ -14,11 +16,12 @@ export default function TodoItem({
         isDone: !isDone,
       })
       .then((res) => console.log(res.data));
+    setIsChecked(!isChecked);
   };
   return (
     <li className="todo-item">
       <input
-        checked={isDone}
+        checked={isChecked}
         type="checkbox"
         name="checkbox"
         id={_id}
@@ -26,7 +29,7 @@ export default function TodoItem({
       />
       <span
         id="description"
-        className={` description ${isDone ? "done" : "notdone"} `}
+        className={` description ${isChecked ? "done" : "notdone"} `}
       >
         {description}
       </span>
